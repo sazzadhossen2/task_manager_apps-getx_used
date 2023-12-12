@@ -118,7 +118,7 @@ Get.offAll( Resetpasswordscreen
                     Text("Have an account",
                       style: TextStyle(fontSize: 16, color: Colors.black54),),
                     TextButton(onPressed: () {
-                      Loginscreen();
+                     Get.offAll(Loginscreen());
                     }, child: Text("Sign in"))
                   ],
                 )
