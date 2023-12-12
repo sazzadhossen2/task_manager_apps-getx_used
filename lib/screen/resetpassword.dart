@@ -105,7 +105,7 @@ class _ResetpasswordscreenState extends State<Resetpasswordscreen> {
                     ),
                     TextButton(
                         onPressed: () {
-                          Loginscreen();
+                           Get.offAll(Loginscreen());
                         },
                         child: Text("Sign in"))
                   ],
