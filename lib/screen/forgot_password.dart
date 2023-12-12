@@ -94,7 +94,7 @@ class _ForgotpasswordscreenState extends State<Forgotpasswordscreen> {
                     ),
                     TextButton(
                         onPressed: () {
-                          Loginscreen();
+                           Get.offAll(Loginscreen());
                         },
                         child: Text("Sign in"))
                   ],
