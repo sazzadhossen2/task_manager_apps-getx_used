@@ -124,9 +124,7 @@ final GlobalKey<FormState>_formkey=GlobalKey<FormState>();
                       Text("You have already account?",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 16,color: Colors.black54),),
                       TextButton(onPressed: (){
 
-                        Navigator.push(context, MaterialPageRoute(builder: (context){
-                          return Loginscreen();
-                        }));
+                      Get.offAll(Loginscreen());
                       }, child: Text("Sign in"))
                     ],
                   )
